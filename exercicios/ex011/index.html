@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/the-monuments-and-tunnels-in-goa-and-hampi-bail-bonds.mp3" type="audio/mpeg">
+        <source src="midia/the-monuments-and-tunnels-in-goa-and-hampi-bail-bonds.ogg" type="audio/ogg">
+        <source src="midia/the-monuments-and-tunnels-in-goa-and-hampi-bail-bonds.wav" type="audio/wav">
+        <p>Parece que seu navegador não consegue reproduzir áudio. <a href="midia/the-monuments-and-tunnels-in-goa-and-hampi-bail-bonds.mp3" download="the-monuments-and-tunnels-in-goa-and-hampi-bail-bonds.mp3" type="audio/mpeg">Clique aqui para conseguir baixar o áudio.</a></p>
+    </audio>
+</body>
+</html>

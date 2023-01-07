@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte / Pré-formatação </h2>
+    <p>A tag <code><mark>&lt;code&gt;</mark></code> ela é usada para indicar o navegador que se trata de um código de computador, além disso essa tag faz com que as letras fiquem monoespaçadas facilitando a leitura do código. <br> Já a tag <code><mark>&lt;pre&gt;</mark></code> é usada para que o código seja visto da forma que ele foi digitado.</p>
+    <h3>Exemplo</h3>
+    <pre>
+        <code>
+            num = int(input('Digite um número'))
+            if num % 2 ==0:
+               print(f'O número {num} é par')
+               else:
+               print(f'O número {num} é ímpar')
+               print('FIM DO PROGRAMA')
+        </code>
+
+    </pre>
+    <h2>Citações simples</h2>
+    <p>Quando quisermos fazer uma citação simples usamos a tag <code><mark>&lt;q&gt;</mark></code>. <br> <strong>Exemplo:</strong> Como a famosa frase de Sócrates: <q>Só sei que nada sei</q></p>
+    <h2>Citações completas</h2>
+    <p>Podemos criar também citações mais longas( em bloco), nesse caso usamos a tag <code><mark>&lt;blockquote&gt;</mark></code>.Podemos também colocar o link para o texto original, usando o parâmetro <mark>cite</mark> dentro da tag, apesar do link não ser visual o sites de buscas irão saber dele. <br> <strong>Exemplo:</strong> Segundo o livro JavaScript do autor David Flanagan:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/JavaScript/zWNyDgAAQBAJ?hl=pt-BR&gbpv=0"> 
+        O guia definitivo fornece uma ampla descrição da linguagem JavaScript básica e das APIs JavaScript do lado do cliente definidas pelos navegadores 
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Sempre que quisermos deixa claro o significado da sigla para as pessoas que acessam e para o mecanismo de busca podemos usar a tag <code><mark>&lt;abbr&gt;</mark>.</code> <br><strong>Exemplo: </strong>O <abbr title="League of Legends">LOL</abbr> é um jogo criado pela Riot Games.</p>
+    <h2>Texto invertido</h2>
+    <p>A tag <code><mark>&lt;bdo&gt;</mark></code> é simplesmente escrever invertido. <br> <strong>Exemplo:</strong> <bdo dir="rtl">Estou escrevendo invertido</bdo></p>
+
+</body>
+</html>

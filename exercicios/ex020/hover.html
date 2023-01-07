@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            color: black;
+            background-color: darkkhaki;
+            width: 250px;
+        }
+
+        div:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fazendo um exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto &darr;</p>
+    <div>Passe o mouse aqui
+        <p>Texto Secreto!!! &#x1F92B</p>
+    </div>
+    <p>The end</p>
+</body>
+</html>
