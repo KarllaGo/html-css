@@ -2,12 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Solitreo&display=swap');
 
 :root {
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'Passion One', cursive;
-    --fonte3: 'Indie Flower', cursive;
+    --fonte3: 'Solitreo', cursive;
 }
 
 *{
@@ -59,14 +59,18 @@ section {
 }
 
 section.imagem {
+    background-attachment: fixed;
     background-color: rgb(65, 98, 99);
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.452);
     color: white;
 }
 
 section.imagem > p {
-    background-color: rgba(0, 0, 0, 0.24);
+    background-color: rgba(0, 0, 0, 0.5);
     display: inline-block;
     padding: 8px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.911);
 }
 
 section.normal {
@@ -76,6 +80,15 @@ section.normal {
 
 section > p {
     padding-bottom: 2em;
+}
+
+section#img01 {
+    background-image: url("../imagens/background001.jpg");
+    background-position: right center;
+}
+
+section#img02 {
+    background-image: url("../imagens/background002.jpg");
 }
 
 footer {
