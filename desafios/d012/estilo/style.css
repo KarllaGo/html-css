@@ -2,12 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 :root {
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'Passion One', cursive;
-    --fonte3: 'Sriracha', cursive;
+    --fonte3: 'Indie Flower', cursive;
 }
 
 *{
@@ -72,6 +72,10 @@ section.imagem > p {
 section.normal {
     background-color: white;
     color: black;
+}
+
+section > p {
+    padding-bottom: 2em;
 }
 
 footer {
