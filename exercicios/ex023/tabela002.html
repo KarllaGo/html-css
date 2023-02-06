@@ -14,11 +14,12 @@
             background-color: lightgrey;
             font-size: 1.4em;
             font-weight: bold;
-            padding: 5px;
+            padding: 10px;
         }
 
         table {
             border-collapse:collapse;
+            position: relative;
             width: 500px;
         }
 
@@ -35,8 +36,14 @@
             padding: 5px;   
         }
 
+        thead > tr > th {
+            background-color: rgb(95, 95, 95);
+            position: sticky;
+            top: -1px;
+        }
+
         thead > tr > th > p {
-            font-size: 12px;
+            font-size: 8px;
         }
 
         thead, tfoot {
