@@ -2,8 +2,61 @@
 
 * {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 body, html {
     background-color: lightgrey;
+}
+
+header {
+    background-color: rgb(143, 142, 142);
+}
+
+header > h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+menu {
+    display: block;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    background-color: rgb(92, 92, 92);
+    border-top: 2px solid gray;
+    color: white;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+menu > ul > li > a:hover {
+    background-color: gray;
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    width: 90vw;
+}
+
+article > h2 {
+    padding-bottom: 20px;
+}
+
+article > p {
+    margin-bottom: 20px;
+    text-align: justify;
+    text-indent: 20px;
 }
